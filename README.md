@@ -131,6 +131,11 @@ LUC CARLOS ASSO
 Étudiant en Informatique et Sciences Mathématiques (ISEM) Institut National Polytechnique Félix Houphouët-Boigny (INP-HB).
 
 Projet réalisé dans le cadre d'un stage réalisé à SORBONE PARIS NORD.
-
-# Encadrant 
+# collègue
+benziane
+# Encadrants
 Pr LUCAS LETOCART
+Camille GRANGE
+Baptiste Deshayes
+
+
