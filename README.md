@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce projet porte sur la résolution du problème de sac à dos quadratique (Quadratic Knapsack Problem - QKP) à l’aide d’un algorithme de recuit simulé implémenté en Python.
+Ce projet porte sur la résolution du problème de sac à dos quadratique (k-Cardinality Quadratic Knapsack Problem - KQKP) à l’aide d’un algorithme de recuit simulé implémenté en Python.
 
 L’objectif est de maximiser une fonction de profit quadratique tout en respectant :
 
@@ -22,9 +22,7 @@ La fonction objectif étudiée est donnée par :
 
 \[
 F(x)=
-\sum_{i=1}^{n} P_{ii}x_i
-+
-\sum_{i=1}^{n}\sum_{j=i+1}^{n} P_{ij}x_ix_j
+\sum_{i=1}^{n}\sum_{j=1}^{n} P_{ij}x_ix_j
 \]
 
 avec :
@@ -91,17 +89,14 @@ Les principaux paramètres analysés sont :
 
 Les expérimentations montrent que :
 
-* le recuit simulé converge vers des solutions de bonne qualité ;
-* les paramètres influencent fortement les performances ;
-* certaines valeurs de (\lambda_1) apparaissent de manière récurrente dans les meilleures solutions.
-
+* le recuit simulé converge vers des solutions acceptable ;
+* les paramètres influencent fortement les performances 
 
 
 # Technologies utilisées
 
 * Python
 * NumPy
-* Matplotlib
 * LaTeX
 
 
@@ -110,19 +105,7 @@ Les expérimentations montrent que :
 
 Exécuter :
 
-
 python Récuit_Simulé.ipynb
-
-
-# Perspectives
-
-Améliorations possibles :
-
-* optimisation automatique des paramètres ;
-* étude du recuit quantique ;
-* amélioration des voisinages.
-
-
 
 # Auteur
 
